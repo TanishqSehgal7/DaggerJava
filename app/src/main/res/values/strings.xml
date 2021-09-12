@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">DaggerJava</string>
+    <string name="connect_car_with_remote">Connect Car With Remote</string>
+    <string name="start_connecting">Start Connecting</string>
+    <string name="setting_up_remote_connection">Setting Up Remote Connection...</string>
+</resources>

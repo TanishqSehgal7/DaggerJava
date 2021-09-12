@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_margin="20dp">-->
+
+    <com.google.android.material.card.MaterialCardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/dialog_item"
+        android:elevation="20dp"
+        android:padding="10dp">
+
+    <TextView
+        android:id="@+id/dialogTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:text="@string/setting_up_remote_connection"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:textColor="@android:color/holo_green_dark"/>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_settings_remote_24"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:layout_marginStart="10dp"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_close_24"
+        android:background="@android:color/holo_green_dark"
+        android:layout_gravity="end"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"/>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
